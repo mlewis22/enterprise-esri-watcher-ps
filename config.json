@@ -1,0 +1,16 @@
+{
+    "delay": 30,
+    "enterpriseUrl": "https://portal.domain.com:7443/arcgis",
+    "onSuccess": false,
+    "onFailure": true,
+    "smtp":{ 
+        "smtpserver": "smtp.office365.com",
+        "port": 587,
+        "subject": "FAILED: Portal Health Check",
+        "text": "Your portal health check has failed",
+        "from": "myname@domain.com",
+        "to": "myname@domain.com"
+    }
+}
+
+
